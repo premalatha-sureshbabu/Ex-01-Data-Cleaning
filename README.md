@@ -79,36 +79,36 @@ Register Number : 212222230112
 import pandas as pd
 import numpy as np
 import seaborn as sns
-d = pd.read_csv("/content/Loan_data.csv")
-d
-d.head()
-d.describe()
-d.tail()
-d.isnull()
-d.isnull().sum()
-d.shape
-d.columns
-d.duplicated
+df = pd.read_csv("/content/Loan_data.csv")
+df
+df.head()
+df.describe()
+df.tail()
+df.isnull()
+df.isnull().sum()
+df.shape
+df.columns
+df.duplicated
 
 #Using mode method to fill the data in columns as Object(String)
 #mode()[0] - Takes the most reccuring value and fills the empty cells
-d['Gender'] = d['Gender'].fillna(d['Gender'].mode()[0])
-d['Dependents'] = d['Dependents'].fillna(d['Dependents'].mode()[0])
-d['Self_Employed'] = d['Self_Employed'].fillna(d['Self_Employed'].mode()[0])
+df['Gender'] = df['Gender'].fillna(df['Gender'].mode()[0])
+df['Dependents'] = d['Dependents'].fillna(d['Dependents'].mode()[0])
+df['Self_Employed'] = df['Self_Employed'].fillna(df['Self_Employed'].mode()[0])
 
 #Using mean method to fill the data
-d['LoanAmount'] = d['LoanAmount'].fillna(d['LoanAmount'].mean())
-d['Loan_Amount_Term'] = d['Loan_Amount_Term'].fillna(d['Loan_Amount_Term'].mean())
-d['Credit_History'] = d['Credit_History'].fillna(d['Credit_History'].mean())
+df['LoanAmount'] = df['LoanAmount'].fillna(df['LoanAmount'].mean())
+df['Loan_Amount_Term'] = df['Loan_Amount_Term'].fillna(df['Loan_Amount_Term'].mean())
+df['Credit_History'] = df['Credit_History'].fillna(df['Credit_History'].mean())
 
 sns.boxplot(y="LoanAmount",data=d)
 
 #Checking the total no.of null values
 again
-d.isnull().sum()
+df.isnull().sum()
 
 #Checking info of the dataset to check all the columns have entries
-d.info()
+df.info()
 ```
 
 # Output for DATA 2
