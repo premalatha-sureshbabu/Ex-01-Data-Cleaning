@@ -18,7 +18,7 @@ Remove the null values from the data
 ## STEP 4
 Save the Clean data to the file
 
-#CODE
+
 # Code for DATA 1
 
 ```
@@ -47,7 +47,7 @@ df.head()
 df.info()
 df.isnull().sum()
 ```
-# OUTPUT
+
 # OUPUT for DATA 1
 ![11](https://user-images.githubusercontent.com/120620842/225975786-c1294853-cfe5-4058-92bc-3c582123a275.png)
 
@@ -73,7 +73,7 @@ df.isnull().sum()
 
 ![isnull sum1](https://user-images.githubusercontent.com/120620842/225977466-df5f09b8-653c-4233-94cc-e595953f1f56.png)
 
-# CODE
+
 # Code for DATA 2
 ```
 Name :S.Prema Latha
@@ -112,7 +112,7 @@ df.isnull().sum()
 #Checking info of the dataset to check all the columns have entries
 df.info()
 ```
-# OUTPUT
+
 # Output for DATA 2
 ![21](https://user-images.githubusercontent.com/120620842/225985839-fcc1db78-a1fe-4e0a-9b1a-76672ffe7c1c.png)
 ![Screenshot (25)](https://user-images.githubusercontent.com/120620842/225990612-65f2b27d-5189-4ea5-a856-59c29d597adc.png)
