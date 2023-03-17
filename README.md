@@ -84,6 +84,7 @@ d
 d.head()
 d.describe()
 d.tail()
+d.isnull()
 d.isnull().sum()
 d.shape
 d.columns
