@@ -93,7 +93,7 @@ df.duplicated
 #Using mode method to fill the data in columns as Object(String)
 #mode()[0] - Takes the most reccuring value and fills the empty cells
 df['Gender'] = df['Gender'].fillna(df['Gender'].mode()[0])
-df['Dependents'] = d['Dependents'].fillna(d['Dependents'].mode()[0])
+df['Dependents'] = df['Dependents'].fillna(df['Dependents'].mode()[0])
 df['Self_Employed'] = df['Self_Employed'].fillna(df['Self_Employed'].mode()[0])
 
 #Using mean method to fill the data
