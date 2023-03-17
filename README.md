@@ -22,8 +22,8 @@ Save the Clean data to the file
 
 ```
 /* 
-Name : Aakash H
-Register Number : 212220040002
+Name :S.Prema Latha
+Register Number : 212222230112
 **Data Cleaning - Data_set.csv**
 import numpy as np
 import pandas as pd
@@ -74,6 +74,8 @@ df.isnull().sum()
 
 # Code for DATA 2
 ```
+Name :S.Prema Latha
+Register Number : 212222230112
 import pandas as pd
 import numpy as np
 import seaborn as sns
