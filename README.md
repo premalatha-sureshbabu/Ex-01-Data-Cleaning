@@ -52,7 +52,8 @@ df.isnull().sum()
 
 # Before Cleaning
 ![head1](https://user-images.githubusercontent.com/120620842/225976025-f38b42e2-fe41-4de4-8716-e1f2633a89e0.png)
-![12](https://user-images.githubusercontent.com/120620842/225977306-f201e709-5deb-42ab-a95e-93a222accd86.png)
+![info data1](https://user-images.githubusercontent.com/120620842/225978903-d7d57049-ddfd-4daf-bfde-8869ee6eb0ad.jpg)
+
 
 ![isnull01](https://user-images.githubusercontent.com/120620842/225976349-ccc38124-41ee-42c4-879e-e9ce1c9d0409.jpg)
 ![isnull sum01](https://user-images.githubusercontent.com/120620842/225976485-d53c488c-2f69-48eb-82cd-9e4ed88e0b7d.jpg)
