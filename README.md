@@ -101,7 +101,7 @@ df['LoanAmount'] = df['LoanAmount'].fillna(df['LoanAmount'].mean())
 df['Loan_Amount_Term'] = df['Loan_Amount_Term'].fillna(df['Loan_Amount_Term'].mean())
 df['Credit_History'] = df['Credit_History'].fillna(df['Credit_History'].mean())
 
-sns.boxplot(y="LoanAmount",data=d)
+sns.boxplot(y="LoanAmount",data=df)
 
 #Checking the total no.of null values
 again
